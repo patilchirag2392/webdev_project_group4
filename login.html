@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - SkillPort</title>
     <link rel="icon" href="assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-</head>
-<body>
-  <div class="main-login-container">
-    <div class="login-card text-center">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-login-container">
+      <div class="login-card text-center">
         <div class="logo-container">
-            <img src="assets/logo.png" alt="SkillPort Logo" class="logo-image">
+          <img src="assets/logo.png" alt="SkillPort Logo" class="logo-image" />
         </div>
-        <br>
+        <br />
         <div class="login-card-header">
-            <h3>Welcome Back</h3>
+          <h3>Welcome Back</h3>
         </div>
-        <br>
+        <br />
         <div class="login-card-body">
-            <form id="loginForm">
-                <div class="form-group mb-3 text-start"> 
-                    <label for="loginEmail">Enter Registered Email:</label>
-                    <input type="email" id="loginEmail" class="form-control" placeholder="example@northeastern.edu" required />
-                </div>
-                <div class="form-group mb-3 text-start">
-                    <label for="loginPassword">Enter your Password:</label>
-                    <input type="password" id="loginPassword" class="form-control" placeholder="Enter your password" required />
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Sign In</button>
-                <p id="loginErrorMessage" class="text-danger mt-3"></p>
-            </form>
+          <form id="loginForm">
+            <div class="form-group mb-3 text-start">
+              <label for="loginEmail">Enter Registered Email:</label>
+              <input
+                type="email"
+                id="loginEmail"
+                class="form-control"
+                placeholder="example@northeastern.edu"
+                required
+              />
+            </div>
+            <div class="form-group mb-3 text-start">
+              <label for="loginPassword">Enter your Password:</label>
+              <input
+                type="password"
+                id="loginPassword"
+                class="form-control"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <p id="loginErrorMessage" class="text-danger mt-3"></p>
+          </form>
         </div>
         <div class="login-card-footer">
-            <p>Don't have an account? <a href="signup.html">Create one</a></p>
+          <p>Don't have an account? <a href="signup.html">Create one</a></p>
         </div>
+      </div>
     </div>
-</div>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

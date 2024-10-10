@@ -66,8 +66,8 @@ document.getElementById("userSignupForm")?.addEventListener("submit", function (
 document.getElementById("loginForm")?.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const email = document.getElementById("email").value.trim();
-  const password = document.getElementById("password").value.trim();
+  const email = document.getElementById("loginEmail").value.trim();
+  const password = document.getElementById("loginPassword").value.trim();
 
   clearErrorMessage("loginErrorMessage");
 
