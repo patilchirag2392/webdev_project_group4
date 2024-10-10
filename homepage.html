@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <style>
+        
+        footer {
+            background-color: rgb(115, 148, 175);
+            padding: 40px 20px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            border-top: 2px solid #549090;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: center; 
+            flex-wrap: wrap;
+            margin-bottom: 40px; 
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: center; 
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;
+            gap: 20px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            color: #080808;
+        }
+
+        /* Founder Section */
+        .founder-blocks {
+            display: flex;
+            gap: 20px; 
+        }
+
+        .founder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(73, 73, 95);
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            width: 120px; 
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .founder:hover {
+            background-color: rgb(171, 200, 210);
+            cursor: pointer;
+        }
+
+        .founder img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Contact Information */
+        ul {
+            list-style-type: none; 
+            padding: 0; 
+        }
+
+        /* Subscription Form */
+        form {
+            display: flex;
+            align-items: center; 
+            gap: 10px; 
+        }
+
+        .form {
+            width: 240px;
+            border-radius: 2px;
+            padding: 8px 10px;
+            color: #000;
+            font-size: 14px;
+            border: none;
+        }
+
+        .subscribe {
+            padding: 8px 15px;
+            background: rgb(52, 52, 86);
+            border-radius: 2px;
+            cursor: pointer;
+            color: white;
+            font-size: 14px;
+            border: none;
+            transition: background 0.3s;
+        }
+
+        .subscribe:hover {
+            background: #27572e;
+        }
+
+        .footer-bottom-text {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #000;
+            padding-top: 10px;
+            border-top: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <!-- Founder Row -->
+        <div class="footer-top">
+            <div class="founder-blocks">
+                <div class="founder">
+                    <img src="photos/founder1.jpg" alt="Mayur Patel">
+                    <span>Mayur Patel</span>
+                </div>
+                <div class="founder">
+                    <img src="photos/founder2.jpeg" alt="Aditya Hasija">
+                    <span>Aditya Hasija</span>
+                </div>
+                <div class="founder">
+                    <img src="photos/founder3.JPG" alt="Parva Maheta">
+                    <span>Parva Maheta</span>
+                </div>
+                <div class="founder">
+                    <img src="photos/founder4.jpeg" alt="Chirag Patil">
+                    <span>Chirag Patil</span>
+                </div>
+                <div class="founder">
+                    <img src="photos/founder5.JPG" alt="Sujal Dusane">
+                    <span>Sujal Dusane</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Row  -->
+        <div class="footer-bottom">
+            <div>
+                <h3>Contact Information:</h3>
+                <ul>
+                    <li><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:example@example.com">Skillport@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <form action="" method="post">
+                <input type="text" class="form" placeholder="example@gmail.com" required>
+                <button type="submit" name="submit" class="subscribe">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Footer Bottom Text -->
+        <div class="footer-bottom-text">
+            <p>&copy; 2024 Skillport</p>
+        </div>
+    </footer>
+</body>
+</html>
