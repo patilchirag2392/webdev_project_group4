@@ -9,51 +9,69 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(135deg, purple, #2575FC);
 }
 
 .signup-card, .login-card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .signup-card-header, .login-card-header {
-    background-color: #1b47e6;
+    background-color: blue;
     color: white;
-    text-align: center;
     padding: 15px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.signup-card-body, .login-card-body {
-    padding: 20px;
+    border-radius: 10px 10px 0 0;
 }
 
 .signup-card-footer, .login-card-footer {
     background: white;
     padding: 15px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 0 0 10px 10px;
 }
 
-.button {
-    background-color: #1b47e6;
+.logo-container {
+    margin-top: -60px;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: blue;
     border: none;
 }
 
+.btn-primary:hover {
+    background-color: #0A2553;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #1b47e6;
+}
+
 .text-danger {
-    color: red;
+    color: #FF4D4D;
     font-weight: bold;
 }
 
 #passwordRequirements {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    margin-top: 10px;
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: gray;
 }
 
 #passwordRequirements li {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
