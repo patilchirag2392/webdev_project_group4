@@ -22,3 +22,12 @@ Responsive Utilities:Classes like .d-none, .d-md-block are used to control eleme
 
 Spacing Utilities:Spacing utilities like .py-5, .mb-4, .ms-2, .my-3 are used to add padding and margins to elements for proper spacing.
 
+Form controls: Applies consistent styling to input fields, enhancing usability and aesthetics for user input.
+
+Form groups: Groups related labels and input fields together, providing proper spacing and structure for forms.
+
+Lists: Displays items in a structured format, useful for presenting requirements or options in a clear manner.
+
+Text Alignment: Controls the alignment and styling of text elements, such as centering headers or coloring error messages.
+
+Dropdown-menu: A toggleable, contextual overlay for displaying the list of user logins and creation page. Activated by clicking on the Sign-in button.
